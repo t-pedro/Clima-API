@@ -3,7 +3,8 @@ var request = new XMLHttpRequest();
 request.open("GET", link, true);
 request.onload = function () {
 var obj = JSON.parse(this.response);
-console.log(obj);
+
+// console.log(obj);
 
 document.getElementById("weather").innerHTML = obj.weather[0].description;
 document.getElementById("location").innerHTML = obj.name;
