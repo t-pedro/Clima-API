@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Clima Timepo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"/>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+       rel="stylesheet"/> 
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script type="text/javascript" src="js/jquery-1.10.2.js"></script>    
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="card">
+        <h2><i class="fa fa-map-marker"></i> <span id="location"></span>, AR</h2>
+        <h6 id="weather"></h6>
+        <h4><span id="temp"></span><sup>o</sup>C</h4>
+        <img id="icon" src="" />
+        <button onClick="window.location.reload();" class="refresh">
+          <i class="fa fa-refresh"></i>
+        </button>
+      </div>
+    </div>
+
+  </body>
+
+  <script src="js/app.js"></script>
+ 
+</html>
